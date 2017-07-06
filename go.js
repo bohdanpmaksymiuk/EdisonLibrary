@@ -14,7 +14,7 @@ pin0.write(a);
 pin1.write(b);
 pin2.write(c);
 pin3.write(d);
-yield setTimeout(suspend.resume(), 100)
+yield setTimeout(suspend.resume(), 100);
 }
 
 setMotor(0,0,0,0);
