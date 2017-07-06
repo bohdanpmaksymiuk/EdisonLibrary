@@ -15,10 +15,10 @@ pin0.write(a);
 pin1.write(b);
 pin2.write(c);
 pin3.write(d);
-sleep(10);
+sleep(1);
 }
 
-var i = 768;
+var i = 512;
 while (i >0 )
 {
 setMotor(1,0,0,0);
