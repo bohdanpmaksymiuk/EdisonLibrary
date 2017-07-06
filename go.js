@@ -5,5 +5,5 @@ var pin2 = new mraa.Gpio(2);
 var pin3 = new mraa.Gpio(3);
 
 pin0.dir(mraa.DIR_OUT);
-pin13.write(1);
+pin0.write(1);
 
