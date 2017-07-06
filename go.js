@@ -5,10 +5,31 @@ var pin2 = new mraa.Gpio(2);
 var pin3 = new mraa.Gpio(3);
 
 pin0.dir(mraa.DIR_OUT);
-pin0.write(1);
 pin1.dir(mraa.DIR_OUT);
-pin1.write(0);
 pin2.dir(mraa.DIR_OUT);
-pin2.write(1);
 pin3.dir(mraa.DIR_OUT);
-pin3.write(0); 
+
+function setMotor(a,b,c,d) {
+pin0.write(a);
+pin1.write(b);
+pin2.write(c);
+pin3.write(d);
+}
+
+setMotor(0,0,0,0);
+setMotor(0,0,0,1);
+setMotor(0,0,1,0);
+setMotor(0,0,1,1);
+setMotor(0,1,0,0);
+setMotor(0,1,0,1);
+setMotor(0,1,1,0);
+setMotor(0,1,1,1);
+setMotor(1,0,0,0);
+setMotor(1,0,0,1);
+setMotor(1,0,1,0);
+setMotor(1,0,1,1);
+setMotor(1,1,0,0);
+setMotor(1,1,0,1);
+setMotor(1,1,1,0);
+setMotor(1,1,1,1);
+ 
