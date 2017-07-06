@@ -1,3 +1,3 @@
 # EdisonLibrary
 
-This is Bohdans Library for automating things with Intel Edison
+This is Bohdan's Library for automating things with Intel Edison
