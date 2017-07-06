@@ -32,10 +32,5 @@ setMotor(1,0,0,1);
 //console.log(i);
 i=i-1;
 }
-<<<<<<< HEAD
-setMotor(0,0,0,0); 
-=======
 setMotor(0,0,0,0);
->>>>>>> b3c47bfa0dfa0b3de56b3b5983f781d6f1d699b9
-
 
