@@ -11,4 +11,4 @@ pin1.write(0);
 pin2.dir(mraa.DIR_OUT);
 pin2.write(1);
 pin3.dir(mraa.DIR_OUT);
-pin3.write(0);
+pin3.write(0); 
