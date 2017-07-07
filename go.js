@@ -21,16 +21,16 @@ sleep(1);
 var i = 512;
 while (i >0 )
 {
-setMotor(1,0,0,0);
-setMotor(1,1,0,0);
-setMotor(0,1,0,0);
-setMotor(0,1,1,0);
-setMotor(0,0,1,0);
-setMotor(0,0,1,1);
-setMotor(0,0,0,1);
-setMotor(1,0,0,1);
-console.log(i);
-i=i-1;
+    setMotor(1,0,0,0);
+    setMotor(1,1,0,0);
+    setMotor(0,1,0,0);
+    setMotor(0,1,1,0);
+    setMotor(0,0,1,0);
+    setMotor(0,0,1,1);
+    setMotor(0,0,0,1);
+    setMotor(1,0,0,1);
+    console.log(i);
+    i=i-1;
 }
 setMotor(0,0,0,0); 
 
